@@ -1,0 +1,24 @@
+{
+  "name": "react-fullstack",
+  "version": "1.0.0",
+  "description": "Komal's react ui with express backend application using NoSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kspandya06/react-fullstack.git"
+  },
+  "author": "kpandya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kspandya06/react-fullstack/issues"
+  },
+  "homepage": "https://github.com/kspandya06/react-fullstack#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "ejs": "^2.5.5"
+  },
+  "devDependencies": {}
+}

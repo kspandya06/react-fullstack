@@ -1,0 +1,17 @@
+{
+  "name": "react-fullstack",
+  "description": "Komal's react ui with express backend application using NoSQL database.",
+  "main": "index.js",
+  "authors": [
+    "kpandya"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kspandya06/react-fullstack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

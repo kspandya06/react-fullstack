@@ -17,8 +17,19 @@
   },
   "homepage": "https://github.com/kspandya06/react-fullstack#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "browser": "^0.2.6",
+    "browser-sync": "^2.18.12",
+    "browserify": "^13.3.0",
+    "ejs": "^2.5.5",
     "express": "^4.15.3",
-    "ejs": "^2.5.5"
+    "guid": "0.0.12",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29",
+    "jquery": "^2.2.4",
+    "react": "^0.14.8",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {}
 }

@@ -1,20 +1,20 @@
  module.exports = function (app){ 
+
+     var GroceryItem = require('./../models/GroceryItem.js');
  
-  var items =  [{
-          name: "Ice Cream"
-     },{
-                    name: "Waffles"
-                },{
-                    name:"Candy",
-                    purchased: true
-                },{
-                    name: "Snacks"
-                }];
-
-
+ 
     app.route('/api/items')
         .get(function(req,res){
-            res.send(items);
+            GroceryItem.find(function(error,doc){
+                    res.send(doc);
+            })
+            
         })
-        .post(function(req,res){})
+        .post(function(req,res){
+            var item = req.body;
+            var groceryItem = new GroceryItem(item);
+            groceryItem.save(function(err,data){
+                res.status(300).send();   
+              })
+ })
  }

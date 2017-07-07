@@ -16,7 +16,7 @@ module.exports = {
         return new Promise(function(success,error){
             $.ajax({
                 url:url,
-                dataType:"json",
+                type:"POST",
                 data:data,
                 success:success,
                 error:error

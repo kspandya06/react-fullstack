@@ -2,6 +2,8 @@ var express = require('express');
 var app = new express();
 var parser = require('body-parser');
 
+require('./database.js');
+
  app.set('view engine', 'ejs'); //when we inform view engine to convert ejs file then no need to add extension to any files
 //if we dont add then add extension. ex. index.ejs
 

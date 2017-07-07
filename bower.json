@@ -1,7 +1,7 @@
 {
   "name": "react-fullstack",
   "description": "Komal's react ui with express backend application using NoSQL database.",
-  "main": "index.js",
+  "main": "server.js",
   "authors": [
     "kpandya"
   ],
